@@ -1,6 +1,6 @@
 (defproject keylogger "0.1"
   :description "keylogger analyzer"
-  :url "http://example.com/FIXME"
+  :url "https://github.com/honza/keylogger"
   :dependencies [[org.clojure/clojure "1.8.0"]]
   :main ^:skip-aot keylogger.core
   :target-path "target/%s"
