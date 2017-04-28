@@ -1,7 +1,6 @@
 (ns keylogger.core
-  (:require [clojure.string :as s]
-            [cheshire.core :refer :all])
-  (:gen-class))
+  (:gen-class)
+  (:require [clojure.string :as s]))
 
 (def keyboards
   {:qwerty {:home (set "asdfghjkl;")}
