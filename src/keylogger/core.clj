@@ -1,3 +1,19 @@
+;; keylogger analyzer --- analyze your typing habits
+;; Copyright (C) 2017  Honza Pokorny <me@honza.ca>
+;;
+;; This program is free software: you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+;;
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+;;
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 (ns keylogger.core
   (:gen-class)
   (:require [clojure.string :as s]))
@@ -96,7 +112,7 @@
     (->> args
          first
          process
-         analyze
-         rank-by-home-row
-         pretty-format-rank
+         ;; analyze
+         ;; rank-by-home-row
+         ;; pretty-format-rank
          println)))
